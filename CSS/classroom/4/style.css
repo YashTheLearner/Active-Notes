@@ -1,0 +1,44 @@
+div{
+    height: 100px;    /* em= relative to font size of parent tag in font case but in case of width it uses font size of itself
+    rem= font size of root element
+    vh or vw = for relative to browser height or width*/
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    position:static;
+}
+#box2{
+    position:relative;
+    top: 50px;
+    right: 108px;
+    z-index:-1;
+}
+#box3{
+    position:absolute;
+    /* relative to closest ancestor or browser*/
+    top:0;
+    left:65%;
+
+}
+#box4{
+    position:fixed;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+    background-color: black;
+    color: white;
+    font-size:50px;
+    text-align: center;
+    font-weight: normal;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#box5{
+    position: sticky;
+    top: 20%;
+}

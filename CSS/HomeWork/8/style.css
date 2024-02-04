@@ -1,0 +1,22 @@
+
+div{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: 75px;
+    margin-left: 75px;
+    border:30px solid grey ;
+    border-bottom: 30px solid black;
+    animation-duration: 2s;
+    animation-name: load;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes load{
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

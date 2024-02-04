@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+@media (min-width:800px){
+    div{
+        background-color: black;
+        height: 200px;
+        width: 200px;
+}
+}
+@media (min-width:550px) and (max-width:700px){
+    div{
+        background-color: rgb(72, 235, 36);
+        height: 200px;
+        width: 200px;
+    }
+}

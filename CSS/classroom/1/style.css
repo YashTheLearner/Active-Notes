@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(0, 0, 0, 0.843);
+}
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+h1 {
+    color :rgb(102, 255, 0);
+    background-color: grey;
+    text-decoration: overline;/* underline overline more on Mdn website*/
+    font-weight:900;/*upto 900,light normal bold bolder*/
+}
+P {
+    text-align: center;
+    color : #00ff00;
+    background-color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    text-transform: capitalize;
+}
+button {
+    color : rgb(0, 0, 0);
+    background-color: aquamarine;}
+#o{
+    font-weight:100 ;
+}
+#b{
+    font-weight:300 ;
+}
+#c{
+    font-weight:500 ;
+}
+#d{
+    font-weight:700 ;
+}
+#e{
+    font-weight:900 ;
+}

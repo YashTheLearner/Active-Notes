@@ -1,0 +1,49 @@
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    padding: 0px;
+    margin: 0px;
+}
+#logo{
+    font-size: 25px;
+    color: #f08804;
+    margin-left: 5px;
+    padding: 0px;
+}
+button{
+    background-color: #f08804;
+    padding: 1px 2px 1px 2px;
+    color: white;
+    margin: 0px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+}
+.hero{
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
+}
+#a{
+   background-color: rgba(3, 205, 255, 0.5);
+   display: inline-block;
+}
+#b{
+   background-color: rgba(255, 0, 221, 0.5);
+   display: inline-block;
+}
+#c{
+   background-color: rgba(17, 255, 0, 0.5);
+   display: inline-block; 
+}
+#content{
+    height: 529px;
+}
+footer{
+    text-align: center;
+    background-color: #0f1111;
+    color: white;
+}

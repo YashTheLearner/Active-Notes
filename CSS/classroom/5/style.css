@@ -1,0 +1,29 @@
+H1{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: solid black;
+}
+#box1{
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+#box2{
+    background-image: url("2.jpg");
+    background-size: cover;
+}
+#box3{
+    background-image: url("3.jpg");
+    background-size: cover;
+}
+#box4{
+    background-image: url("4.jpg");
+    background-size: cover;
+}
+body{
+    background-image:url("4.jpg");
+    background-size: cover;
+}
